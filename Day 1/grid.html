@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Căn Giữa với CSS Grid</title>
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            display: grid;
+            place-items: center; /* Center both sides */
+            height: 100vh;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #28A745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="button">Click Me</button>
+    </div>
+</body>
+</html>

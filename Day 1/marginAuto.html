@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Căn Giữa với Margin Auto</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 100%;
+            text-align: center; 
+            height: 100vh;      
+            display: flex;      /* Add flex to vertical center */
+            align-items: center;
+        }
+        .button {
+            width: 200px; 
+            margin: 0 auto; /* Horizontal center */
+            padding: 10px 20px;
+            background-color: #FFC107;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="button">Click Me</button>
+    </div>
+</body>
+</html>
